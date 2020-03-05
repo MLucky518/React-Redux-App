@@ -32,7 +32,7 @@ function Pokemon({ isFetching, pokemon, error, getPokemon, nextPage }, props) {
         })}
       </div>
       <br/>
-      <button className = "more-button" onClick={() => getPokemon()}>get more pokemon</button>
+      <button className = "more-button" onClick={() => getPokemon()}>Get More Pokemon</button>
     </div>
   );
 }
