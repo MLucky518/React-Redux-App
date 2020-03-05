@@ -1,0 +1,23 @@
+.poke-info-container{
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:lightgrey;
+    height:10%;
+    
+    .info-container{
+        text-align: center;
+        width:15%;
+        margin:2%;
+        border:1px dotted grey;
+        height:10%;
+        
+        
+    }
+
+    .h1{
+        font-size:5rem;
+    }
+
+}

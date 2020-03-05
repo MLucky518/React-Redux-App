@@ -10,6 +10,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 const store = createStore(pokeReducer,applyMiddleware(thunk));
 
-ReactDOM.render(<Provider store = {store}><Router><App /></Router></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store = {store}><Router onUpdate={() => window.scrollTo(0, 0)}><App /></Router></Provider>, document.getElementById('root'));
 
 
